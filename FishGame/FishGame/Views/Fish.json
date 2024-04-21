@@ -1,0 +1,125 @@
+[
+    {
+        "name": "clownfish",
+        "contents":
+        {
+            "japaneseName": "カクレクマノミ",
+            "floor": "",
+            "video": "",
+            "url": "",
+            "image": "",
+            "detail": ""
+        },
+        "parameters":
+        {
+            "width": 90.0,
+            "height": 70.0,
+            "jump": 60.0,
+            "gravity": 5.0
+        },
+        "designer":
+        {
+            "name": "Shuto Nagata",
+            "number": "19AP122"
+        }
+        
+    },
+    {
+        "name": "seaOtter",
+        "contents":
+        {
+            "japaneseName": "ラッコ",
+            "floor": "2",
+            "video": "",
+            "url": "",
+            "image": "",
+            "detail": ""
+        },
+        "parameters":
+        {
+            "width": 160.0,
+            "height": 70.0,
+            "jump": 100.0,
+            "gravity": 5.5
+        },
+        "designer":
+        {
+            "name": "Miyu Kubota",
+            "number": "19AP113"
+        }
+        
+    },
+    {
+        "name": "finlessPorpoise",
+        "contents":
+        {
+            "japaneseName": "スナメリ",
+            "floor": "",
+            "video": "",
+            "url": "",
+            "image": "",
+            "detail": ""
+        },
+        "parameters":
+        {
+            "width": 240.0,
+            "height": 100.0,
+            "jump": 220.0,
+            "gravity": 5.5
+        },
+        "designer":
+        {
+            "name": "Miyu Kubota",
+            "number": "19AP113"
+        }
+    },
+    {
+        "name": "dolphin",
+        "contents":
+        {
+            "japaneseName": "イルカ",
+            "floor": "3",
+            "video": "",
+            "url": "",
+            "image": "",
+            "detail": ""
+        },
+        "parameters":
+        {
+            "width": 220.0,
+            "height": 100.0,
+            "jump": 200.0,
+            "gravity": 6.0
+        },
+        "designer":
+        {
+            "name": "Shuto Nagata",
+            "number": "19AP122"
+        }
+    },
+    {
+        "name": "clownfish3",
+        "contents":
+        {
+            "japaneseName": "おおきなクマノミ",
+            "floor": "",
+            "video": "",
+            "url": "",
+            "image": "",
+            "detail": ""
+        },
+        "parameters":
+        {
+            "width": 190.0,
+            "height": 170.0,
+            "jump": 160.0,
+            "gravity": 2.0
+        },
+        "designer":
+        {
+            "name": "Shuto Nagata",
+            "number": "19AP122"
+        }
+        
+    }
+]

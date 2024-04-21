@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30319B052BD4F131009B36B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B042BD4F131009B36B2 /* AppDelegate.swift */; };
+		30319B072BD4F131009B36B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B062BD4F131009B36B2 /* SceneDelegate.swift */; };
+		30319B092BD4F131009B36B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B082BD4F131009B36B2 /* ViewController.swift */; };
+		30319B0C2BD4F131009B36B2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 30319B0B2BD4F131009B36B2 /* Base */; };
+		30319B0E2BD4F133009B36B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30319B0D2BD4F133009B36B2 /* Assets.xcassets */; };
+		30319B112BD4F133009B36B2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 30319B102BD4F133009B36B2 /* Base */; };
+		30319B1C2BD4F133009B36B2 /* FishGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B1B2BD4F133009B36B2 /* FishGameTests.swift */; };
+		30319B262BD4F133009B36B2 /* FishGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B252BD4F133009B36B2 /* FishGameUITests.swift */; };
+		30319B282BD4F133009B36B2 /* FishGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B272BD4F133009B36B2 /* FishGameUITestsLaunchTests.swift */; };
+		30319B392BD4F17A009B36B2 /* FISHGAME.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30319B372BD4F179009B36B2 /* FISHGAME.storyboard */; };
+		30319B3A2BD4F17A009B36B2 /* RankingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30319B382BD4F179009B36B2 /* RankingTableViewCell.xib */; };
+		30319B552BD4F19B009B36B2 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B3B2BD4F199009B36B2 /* RankingTableViewCell.swift */; };
+		30319B562BD4F19B009B36B2 /* AddCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B3C2BD4F199009B36B2 /* AddCharacterViewController.swift */; };
+		30319B572BD4F19B009B36B2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30319B3D2BD4F199009B36B2 /* Actions.sks */; };
+		30319B582BD4F19B009B36B2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B3E2BD4F19A009B36B2 /* CollectionViewCell.swift */; };
+		30319B592BD4F19B009B36B2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30319B3F2BD4F19A009B36B2 /* GameScene.sks */; };
+		30319B5A2BD4F19B009B36B2 /* Fish3.json in Resources */ = {isa = PBXBuildFile; fileRef = 30319B402BD4F19A009B36B2 /* Fish3.json */; };
+		30319B5B2BD4F19B009B36B2 /* backgroundAnimated.png in Resources */ = {isa = PBXBuildFile; fileRef = 30319B412BD4F19A009B36B2 /* backgroundAnimated.png */; };
+		30319B5C2BD4F19B009B36B2 /* clownfish3Animated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30319B422BD4F19A009B36B2 /* clownfish3Animated.gif */; };
+		30319B5D2BD4F19B009B36B2 /* clownfishAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30319B432BD4F19A009B36B2 /* clownfishAnimated.gif */; };
+		30319B5E2BD4F19B009B36B2 /* congratulationAnimated.png in Resources */ = {isa = PBXBuildFile; fileRef = 30319B442BD4F19A009B36B2 /* congratulationAnimated.png */; };
+		30319B5F2BD4F19B009B36B2 /* dolphinAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30319B452BD4F19A009B36B2 /* dolphinAnimated.gif */; };
+		30319B602BD4F19B009B36B2 /* finlessPorpoiseAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30319B462BD4F19A009B36B2 /* finlessPorpoiseAnimated.gif */; };
+		30319B612BD4F19B009B36B2 /* Fish.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30319B472BD4F19A009B36B2 /* Fish.xcassets */; };
+		30319B622BD4F19B009B36B2 /* seaOtterAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30319B482BD4F19A009B36B2 /* seaOtterAnimated.gif */; };
+		30319B632BD4F19B009B36B2 /* seaweed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30319B492BD4F19A009B36B2 /* seaweed.gif */; };
+		30319B642BD4F19B009B36B2 /* seaweedAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 30319B4A2BD4F19A009B36B2 /* seaweedAnimated.gif */; };
+		30319B652BD4F19B009B36B2 /* tenjinNow.png in Resources */ = {isa = PBXBuildFile; fileRef = 30319B4B2BD4F19A009B36B2 /* tenjinNow.png */; };
+		30319B662BD4F19B009B36B2 /* tenjinNowGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 30319B4C2BD4F19A009B36B2 /* tenjinNowGameOver.png */; };
+		30319B672BD4F19B009B36B2 /* Fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 30319B4E2BD4F19A009B36B2 /* Fish.json */; };
+		30319B682BD4F19B009B36B2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B4F2BD4F19B009B36B2 /* SettingViewController.swift */; };
+		30319B692BD4F19B009B36B2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B502BD4F19B009B36B2 /* GameScene.swift */; };
+		30319B6B2BD4F19B009B36B2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B522BD4F19B009B36B2 /* GameViewController.swift */; };
+		30319B6C2BD4F19B009B36B2 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B532BD4F19B009B36B2 /* RankingViewController.swift */; };
+		30319B6D2BD4F19B009B36B2 /* SKSpriteNode+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30319B542BD4F19B009B36B2 /* SKSpriteNode+Gif.swift */; };
+		306111212BD501CF00BA2195 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 306111202BD501CF00BA2195 /* SwiftyGif */; };
+		306111232BD501CF00BA2195 /* SwiftyGif-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 306111222BD501CF00BA2195 /* SwiftyGif-Dynamic */; };
+		306111262BD5023900BA2195 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306111252BD5023900BA2195 /* UIDevice.swift */; };
+		30B493062BD4F8640024767A /* APNGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30B493052BD4F8640024767A /* APNGKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30319B182BD4F133009B36B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30319AF92BD4F131009B36B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30319B002BD4F131009B36B2;
+			remoteInfo = FishGame;
+		};
+		30319B222BD4F133009B36B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30319AF92BD4F131009B36B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30319B002BD4F131009B36B2;
+			remoteInfo = FishGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30319B012BD4F131009B36B2 /* FishGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30319B042BD4F131009B36B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30319B062BD4F131009B36B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30319B082BD4F131009B36B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30319B0B2BD4F131009B36B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30319B0D2BD4F133009B36B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30319B102BD4F133009B36B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30319B122BD4F133009B36B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30319B172BD4F133009B36B2 /* FishGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30319B1B2BD4F133009B36B2 /* FishGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishGameTests.swift; sourceTree = "<group>"; };
+		30319B212BD4F133009B36B2 /* FishGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30319B252BD4F133009B36B2 /* FishGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishGameUITests.swift; sourceTree = "<group>"; };
+		30319B272BD4F133009B36B2 /* FishGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30319B372BD4F179009B36B2 /* FISHGAME.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FISHGAME.storyboard; sourceTree = "<group>"; };
+		30319B382BD4F179009B36B2 /* RankingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankingTableViewCell.xib; sourceTree = "<group>"; };
+		30319B3B2BD4F199009B36B2 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		30319B3C2BD4F199009B36B2 /* AddCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCharacterViewController.swift; sourceTree = "<group>"; };
+		30319B3D2BD4F199009B36B2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		30319B3E2BD4F19A009B36B2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		30319B3F2BD4F19A009B36B2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		30319B402BD4F19A009B36B2 /* Fish3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Fish3.json; sourceTree = "<group>"; };
+		30319B412BD4F19A009B36B2 /* backgroundAnimated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundAnimated.png; sourceTree = "<group>"; };
+		30319B422BD4F19A009B36B2 /* clownfish3Animated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clownfish3Animated.gif; sourceTree = "<group>"; };
+		30319B432BD4F19A009B36B2 /* clownfishAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clownfishAnimated.gif; sourceTree = "<group>"; };
+		30319B442BD4F19A009B36B2 /* congratulationAnimated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congratulationAnimated.png; sourceTree = "<group>"; };
+		30319B452BD4F19A009B36B2 /* dolphinAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dolphinAnimated.gif; sourceTree = "<group>"; };
+		30319B462BD4F19A009B36B2 /* finlessPorpoiseAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = finlessPorpoiseAnimated.gif; sourceTree = "<group>"; };
+		30319B472BD4F19A009B36B2 /* Fish.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Fish.xcassets; sourceTree = "<group>"; };
+		30319B482BD4F19A009B36B2 /* seaOtterAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = seaOtterAnimated.gif; sourceTree = "<group>"; };
+		30319B492BD4F19A009B36B2 /* seaweed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = seaweed.gif; sourceTree = "<group>"; };
+		30319B4A2BD4F19A009B36B2 /* seaweedAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = seaweedAnimated.gif; sourceTree = "<group>"; };
+		30319B4B2BD4F19A009B36B2 /* tenjinNow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenjinNow.png; sourceTree = "<group>"; };
+		30319B4C2BD4F19A009B36B2 /* tenjinNowGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenjinNowGameOver.png; sourceTree = "<group>"; };
+		30319B4E2BD4F19A009B36B2 /* Fish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Fish.json; sourceTree = "<group>"; };
+		30319B4F2BD4F19B009B36B2 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		30319B502BD4F19B009B36B2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		30319B522BD4F19B009B36B2 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		30319B532BD4F19B009B36B2 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		30319B542BD4F19B009B36B2 /* SKSpriteNode+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Gif.swift"; sourceTree = "<group>"; };
+		306111252BD5023900BA2195 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30319AFE2BD4F131009B36B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B493062BD4F8640024767A /* APNGKit in Frameworks */,
+				306111212BD501CF00BA2195 /* SwiftyGif in Frameworks */,
+				306111232BD501CF00BA2195 /* SwiftyGif-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30319B142BD4F133009B36B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30319B1E2BD4F133009B36B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30319AF82BD4F131009B36B2 = {
+			isa = PBXGroup;
+			children = (
+				30319B032BD4F131009B36B2 /* FishGame */,
+				30319B1A2BD4F133009B36B2 /* FishGameTests */,
+				30319B242BD4F133009B36B2 /* FishGameUITests */,
+				30319B022BD4F131009B36B2 /* Products */,
+				30B493032BD4F81E0024767A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30319B022BD4F131009B36B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30319B012BD4F131009B36B2 /* FishGame.app */,
+				30319B172BD4F133009B36B2 /* FishGameTests.xctest */,
+				30319B212BD4F133009B36B2 /* FishGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30319B032BD4F131009B36B2 /* FishGame */ = {
+			isa = PBXGroup;
+			children = (
+				30319B342BD4F13F009B36B2 /* Storyboards */,
+				30319B352BD4F147009B36B2 /* Views */,
+				30319B4D2BD4F19A009B36B2 /* Resources */,
+				30319B042BD4F131009B36B2 /* AppDelegate.swift */,
+				30319B062BD4F131009B36B2 /* SceneDelegate.swift */,
+				30319B082BD4F131009B36B2 /* ViewController.swift */,
+				30319B0A2BD4F131009B36B2 /* Main.storyboard */,
+				30319B0D2BD4F133009B36B2 /* Assets.xcassets */,
+				30319B0F2BD4F133009B36B2 /* LaunchScreen.storyboard */,
+				30319B122BD4F133009B36B2 /* Info.plist */,
+				306111242BD5022500BA2195 /* CLASS+EXTENSION */,
+			);
+			path = FishGame;
+			sourceTree = "<group>";
+		};
+		30319B1A2BD4F133009B36B2 /* FishGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				30319B1B2BD4F133009B36B2 /* FishGameTests.swift */,
+			);
+			path = FishGameTests;
+			sourceTree = "<group>";
+		};
+		30319B242BD4F133009B36B2 /* FishGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30319B252BD4F133009B36B2 /* FishGameUITests.swift */,
+				30319B272BD4F133009B36B2 /* FishGameUITestsLaunchTests.swift */,
+			);
+			path = FishGameUITests;
+			sourceTree = "<group>";
+		};
+		30319B342BD4F13F009B36B2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				30319B372BD4F179009B36B2 /* FISHGAME.storyboard */,
+				30319B382BD4F179009B36B2 /* RankingTableViewCell.xib */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		30319B352BD4F147009B36B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30319B4E2BD4F19A009B36B2 /* Fish.json */,
+				30319B402BD4F19A009B36B2 /* Fish3.json */,
+				30319B502BD4F19B009B36B2 /* GameScene.swift */,
+				30319B522BD4F19B009B36B2 /* GameViewController.swift */,
+				30319B532BD4F19B009B36B2 /* RankingViewController.swift */,
+				30319B3B2BD4F199009B36B2 /* RankingTableViewCell.swift */,
+				30319B4F2BD4F19B009B36B2 /* SettingViewController.swift */,
+				30319B3E2BD4F19A009B36B2 /* CollectionViewCell.swift */,
+				30319B542BD4F19B009B36B2 /* SKSpriteNode+Gif.swift */,
+				30319B3C2BD4F199009B36B2 /* AddCharacterViewController.swift */,
+				30319B3D2BD4F199009B36B2 /* Actions.sks */,
+				30319B3F2BD4F19A009B36B2 /* GameScene.sks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30319B4D2BD4F19A009B36B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30319B412BD4F19A009B36B2 /* backgroundAnimated.png */,
+				30319B422BD4F19A009B36B2 /* clownfish3Animated.gif */,
+				30319B432BD4F19A009B36B2 /* clownfishAnimated.gif */,
+				30319B442BD4F19A009B36B2 /* congratulationAnimated.png */,
+				30319B452BD4F19A009B36B2 /* dolphinAnimated.gif */,
+				30319B462BD4F19A009B36B2 /* finlessPorpoiseAnimated.gif */,
+				30319B472BD4F19A009B36B2 /* Fish.xcassets */,
+				30319B482BD4F19A009B36B2 /* seaOtterAnimated.gif */,
+				30319B492BD4F19A009B36B2 /* seaweed.gif */,
+				30319B4A2BD4F19A009B36B2 /* seaweedAnimated.gif */,
+				30319B4B2BD4F19A009B36B2 /* tenjinNow.png */,
+				30319B4C2BD4F19A009B36B2 /* tenjinNowGameOver.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		306111242BD5022500BA2195 /* CLASS+EXTENSION */ = {
+			isa = PBXGroup;
+			children = (
+				306111252BD5023900BA2195 /* UIDevice.swift */,
+			);
+			path = "CLASS+EXTENSION";
+			sourceTree = "<group>";
+		};
+		30B493032BD4F81E0024767A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30319B002BD4F131009B36B2 /* FishGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30319B2B2BD4F133009B36B2 /* Build configuration list for PBXNativeTarget "FishGame" */;
+			buildPhases = (
+				30319AFD2BD4F131009B36B2 /* Sources */,
+				30319AFE2BD4F131009B36B2 /* Frameworks */,
+				30319AFF2BD4F131009B36B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishGame;
+			packageProductDependencies = (
+				30B493052BD4F8640024767A /* APNGKit */,
+				306111202BD501CF00BA2195 /* SwiftyGif */,
+				306111222BD501CF00BA2195 /* SwiftyGif-Dynamic */,
+			);
+			productName = FishGame;
+			productReference = 30319B012BD4F131009B36B2 /* FishGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30319B162BD4F133009B36B2 /* FishGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30319B2E2BD4F133009B36B2 /* Build configuration list for PBXNativeTarget "FishGameTests" */;
+			buildPhases = (
+				30319B132BD4F133009B36B2 /* Sources */,
+				30319B142BD4F133009B36B2 /* Frameworks */,
+				30319B152BD4F133009B36B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30319B192BD4F133009B36B2 /* PBXTargetDependency */,
+			);
+			name = FishGameTests;
+			productName = FishGameTests;
+			productReference = 30319B172BD4F133009B36B2 /* FishGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30319B202BD4F133009B36B2 /* FishGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30319B312BD4F133009B36B2 /* Build configuration list for PBXNativeTarget "FishGameUITests" */;
+			buildPhases = (
+				30319B1D2BD4F133009B36B2 /* Sources */,
+				30319B1E2BD4F133009B36B2 /* Frameworks */,
+				30319B1F2BD4F133009B36B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30319B232BD4F133009B36B2 /* PBXTargetDependency */,
+			);
+			name = FishGameUITests;
+			productName = FishGameUITests;
+			productReference = 30319B212BD4F133009B36B2 /* FishGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30319AF92BD4F131009B36B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					30319B002BD4F131009B36B2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					30319B162BD4F133009B36B2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 30319B002BD4F131009B36B2;
+					};
+					30319B202BD4F133009B36B2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 30319B002BD4F131009B36B2;
+					};
+				};
+			};
+			buildConfigurationList = 30319AFC2BD4F131009B36B2 /* Build configuration list for PBXProject "FishGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30319AF82BD4F131009B36B2;
+			packageReferences = (
+				30B493042BD4F8640024767A /* XCRemoteSwiftPackageReference "APNGKit" */,
+				3061111F2BD501CF00BA2195 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
+			productRefGroup = 30319B022BD4F131009B36B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30319B002BD4F131009B36B2 /* FishGame */,
+				30319B162BD4F133009B36B2 /* FishGameTests */,
+				30319B202BD4F133009B36B2 /* FishGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30319AFF2BD4F131009B36B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30319B5F2BD4F19B009B36B2 /* dolphinAnimated.gif in Resources */,
+				30319B3A2BD4F17A009B36B2 /* RankingTableViewCell.xib in Resources */,
+				30319B662BD4F19B009B36B2 /* tenjinNowGameOver.png in Resources */,
+				30319B622BD4F19B009B36B2 /* seaOtterAnimated.gif in Resources */,
+				30319B672BD4F19B009B36B2 /* Fish.json in Resources */,
+				30319B572BD4F19B009B36B2 /* Actions.sks in Resources */,
+				30319B642BD4F19B009B36B2 /* seaweedAnimated.gif in Resources */,
+				30319B5B2BD4F19B009B36B2 /* backgroundAnimated.png in Resources */,
+				30319B0E2BD4F133009B36B2 /* Assets.xcassets in Resources */,
+				30319B5D2BD4F19B009B36B2 /* clownfishAnimated.gif in Resources */,
+				30319B632BD4F19B009B36B2 /* seaweed.gif in Resources */,
+				30319B112BD4F133009B36B2 /* Base in Resources */,
+				30319B652BD4F19B009B36B2 /* tenjinNow.png in Resources */,
+				30319B5E2BD4F19B009B36B2 /* congratulationAnimated.png in Resources */,
+				30319B592BD4F19B009B36B2 /* GameScene.sks in Resources */,
+				30319B602BD4F19B009B36B2 /* finlessPorpoiseAnimated.gif in Resources */,
+				30319B392BD4F17A009B36B2 /* FISHGAME.storyboard in Resources */,
+				30319B5C2BD4F19B009B36B2 /* clownfish3Animated.gif in Resources */,
+				30319B0C2BD4F131009B36B2 /* Base in Resources */,
+				30319B612BD4F19B009B36B2 /* Fish.xcassets in Resources */,
+				30319B5A2BD4F19B009B36B2 /* Fish3.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30319B152BD4F133009B36B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30319B1F2BD4F133009B36B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30319AFD2BD4F131009B36B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30319B6D2BD4F19B009B36B2 /* SKSpriteNode+Gif.swift in Sources */,
+				30319B562BD4F19B009B36B2 /* AddCharacterViewController.swift in Sources */,
+				30319B092BD4F131009B36B2 /* ViewController.swift in Sources */,
+				30319B692BD4F19B009B36B2 /* GameScene.swift in Sources */,
+				30319B582BD4F19B009B36B2 /* CollectionViewCell.swift in Sources */,
+				30319B6B2BD4F19B009B36B2 /* GameViewController.swift in Sources */,
+				30319B6C2BD4F19B009B36B2 /* RankingViewController.swift in Sources */,
+				306111262BD5023900BA2195 /* UIDevice.swift in Sources */,
+				30319B052BD4F131009B36B2 /* AppDelegate.swift in Sources */,
+				30319B552BD4F19B009B36B2 /* RankingTableViewCell.swift in Sources */,
+				30319B682BD4F19B009B36B2 /* SettingViewController.swift in Sources */,
+				30319B072BD4F131009B36B2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30319B132BD4F133009B36B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30319B1C2BD4F133009B36B2 /* FishGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30319B1D2BD4F133009B36B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30319B282BD4F133009B36B2 /* FishGameUITestsLaunchTests.swift in Sources */,
+				30319B262BD4F133009B36B2 /* FishGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30319B192BD4F133009B36B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30319B002BD4F131009B36B2 /* FishGame */;
+			targetProxy = 30319B182BD4F133009B36B2 /* PBXContainerItemProxy */;
+		};
+		30319B232BD4F133009B36B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30319B002BD4F131009B36B2 /* FishGame */;
+			targetProxy = 30319B222BD4F133009B36B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30319B0A2BD4F131009B36B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30319B0B2BD4F131009B36B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30319B0F2BD4F133009B36B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30319B102BD4F133009B36B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30319B292BD4F133009B36B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30319B2A2BD4F133009B36B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30319B2C2BD4F133009B36B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6937Z5BK5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FishGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = FISHGAME.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.FishGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30319B2D2BD4F133009B36B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6937Z5BK5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FishGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = FISHGAME.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.FishGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30319B2F2BD4F133009B36B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.FishGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FishGame";
+			};
+			name = Debug;
+		};
+		30319B302BD4F133009B36B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.FishGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FishGame";
+			};
+			name = Release;
+		};
+		30319B322BD4F133009B36B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.FishGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FishGame;
+			};
+			name = Debug;
+		};
+		30319B332BD4F133009B36B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.FishGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FishGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30319AFC2BD4F131009B36B2 /* Build configuration list for PBXProject "FishGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30319B292BD4F133009B36B2 /* Debug */,
+				30319B2A2BD4F133009B36B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30319B2B2BD4F133009B36B2 /* Build configuration list for PBXNativeTarget "FishGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30319B2C2BD4F133009B36B2 /* Debug */,
+				30319B2D2BD4F133009B36B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30319B2E2BD4F133009B36B2 /* Build configuration list for PBXNativeTarget "FishGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30319B2F2BD4F133009B36B2 /* Debug */,
+				30319B302BD4F133009B36B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30319B312BD4F133009B36B2 /* Build configuration list for PBXNativeTarget "FishGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30319B322BD4F133009B36B2 /* Debug */,
+				30319B332BD4F133009B36B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3061111F2BD501CF00BA2195 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.5;
+			};
+		};
+		30B493042BD4F8640024767A /* XCRemoteSwiftPackageReference "APNGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/APNGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		306111202BD501CF00BA2195 /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3061111F2BD501CF00BA2195 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+		306111222BD501CF00BA2195 /* SwiftyGif-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3061111F2BD501CF00BA2195 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = "SwiftyGif-Dynamic";
+		};
+		30B493052BD4F8640024767A /* APNGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B493042BD4F8640024767A /* XCRemoteSwiftPackageReference "APNGKit" */;
+			productName = APNGKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 30319AF92BD4F131009B36B2 /* Project object */;
+}

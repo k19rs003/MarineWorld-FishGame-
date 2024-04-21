@@ -1,0 +1,33 @@
+{
+  "originHash" : "c1b32ab6bc3125bfc579ba1d3a24b879522120624df61b0a7710092890cfa3df",
+  "pins" : [
+    {
+      "identity" : "apngkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/APNGKit.git",
+      "state" : {
+        "revision" : "995386261326bce7ff19879cac84b6f27ce35629",
+        "version" : "2.3.0"
+      }
+    },
+    {
+      "identity" : "delegate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Delegate.git",
+      "state" : {
+        "revision" : "ec3014ca2621c717f758d8718ec90e84b6e774b3",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "swiftygif",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kirualex/SwiftyGif.git",
+      "state" : {
+        "revision" : "4430cbc148baa3907651d40562d96325426f409a",
+        "version" : "5.4.5"
+      }
+    }
+  ],
+  "version" : 3
+}
