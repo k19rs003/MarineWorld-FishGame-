@@ -364,27 +364,27 @@ class RankingViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     private func loadHighScoreJson(_ urlString: String) {
         guard let url = URL(string: urlString) else { return }
         print(url)
-        _ = URLSession.shared.dataTask(with: url) { [weak self] (data, response, error) in
-                guard let self = self else { return }
-
-                if let error = error {
-                    print("Error: \(error)")
-                    return
-                }
-
-                guard let data = data else {
-                    print("No data received")
-                    return
-                }
-
-                do {
-                    let highScoreContents = try JSONDecoder().decode([HighScoreContent].self, from: data)
-                    DispatchQueue.main.async {
-                        self.highScoreContents = highScoreContents
-                    }
-                } catch {
-                    print("Error decoding JSON: \(error)")
-                }
+        URLSession.shared.dataTask(with: url) { [weak self] (data, response, error) in
+            guard let self = self else { return }
+            
+            if let error = error {
+                print("Error: \(error)")
+                return
             }
+            
+            guard let data = data else {
+                print("No data received")
+                return
+            }
+            
+            do {
+                let highScoreContents = try JSONDecoder().decode([HighScoreContent].self, from: data)
+                DispatchQueue.main.async {
+                    self.highScoreContents = highScoreContents
+                }
+            } catch {
+                print("Error decoding JSON: \(error)")
+            }
+        }.resume()
     }
 }
